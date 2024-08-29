@@ -1,5 +1,4 @@
 // http://pokeapi.co/api/v2/pokemon/bulbasur
-import { PokemonDetails } from "../types/types";
 import {formatName} from "../utils/utils";
 
 export async function fetchPokemon(name:string) {
